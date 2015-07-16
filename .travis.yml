@@ -3,4 +3,4 @@ before_install:
   -in .chef/jonathanmorley.pem.enc -out .chef/jonathanmorley.pem -d
 language: ruby
 sudo: false
-rvm: 1.9.3
+rvm: 2.2.2
