@@ -1,0 +1,3 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_db08ce1be448_key -iv $encrypted_db08ce1be448_iv
+  -in jonathanmorley.pem.enc -out .\\jonathanmorley.pem -d
